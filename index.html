@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,22 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Smart Attendance Management System</title>
     <meta name="description" content="AI-Powered College Attendance Management with WhatsApp Integration" />
-    <meta name="author" content="Lovable" />
+  
+    <!-- Favicon - This is what appears in the browser tab -->
+    <!-- Assuming your desired favicon is logo.png in public/uploads -->
+    <link rel="icon" type="image/png" href="/uploads/logo.png" /> 
+    <!-- You can also use /favicon.ico if you have a dedicated favicon.ico file in public/ -->
+    <!-- <link rel="icon" type="image/x-icon" href="/favicon.ico" /> -->
 
+    <!-- Open Graph / Facebook / WhatsApp / LinkedIn -->
     <meta property="og:title" content="Smart Attendance Management System" />
     <meta property="og:description" content="AI-Powered College Attendance Management with WhatsApp Integration" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- CRITICAL FIX: Use a public URL path for the image -->
+    <!-- This assumes logo.png is in your public/uploads folder -->
+    <meta property="og:image" content="/uploads/logo.png" /> 
+    <!-- IMPORTANT: For best results, once deployed, you should use the full absolute URL: -->
+    <!-- <meta property="og:image" content="https://your-vercel-url.vercel.app/uploads/logo.png" /> -->
+    <!-- You can update this after your first successful Vercel deployment URL is known -->
+    
+    <!-- Recommended: Add og:url for better sharing -->
+    <meta property="og:url" content="https://ritp-system-93n6.vercel.app/" /> <!-- Replace with your actual Vercel URL -->
 
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- CRITICAL FIX: Use a public URL path for the image -->
+    <meta name="twitter:image" content="/uploads/logo.png" />
+    <!-- Recommended: Add twitter:url for better sharing -->
+    <meta name="twitter:url" content="https://ritp-system-93n6.vercel.app/" /> <!-- Replace with your actual Vercel URL -->
+    <meta name="twitter:title" content="Smart Attendance Management System" />
+    <meta name="twitter:description" content="AI-Powered College Attendance Management with WhatsApp Integration" />
     
     <!-- PWA Configuration -->
     <meta name="theme-color" content="#2563eb" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="apple-mobile-web-app-title" content="Smart Attendance" />
+    <!-- Add manifest link for PWA -->
+    <link rel="manifest" href="/manifest.json" /> 
+    <!-- Add apple-touch-icon for iOS PWA -->
+    <link rel="apple-touch-icon" href="/uploads/logo.png" /> <!-- Use a high-res version of your logo -->
+
   </head>
 
   <body>
